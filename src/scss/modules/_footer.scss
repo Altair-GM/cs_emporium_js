@@ -1,0 +1,75 @@
+footer{
+    background-color:rgb(50, 50, 56);
+    // display: flex;
+    // justify-content: center;
+    
+    
+    #pied{
+        display: flex;
+        padding: 0% 10%;
+        
+        div{
+            padding: 2% 5%;
+            width: 50%;
+            h4{
+                text-transform: uppercase;
+                font-family: poppins-r;
+                color: whitesmoke;
+
+            }
+            p{
+                color: gray;
+                font-family:dms-r ;
+                text-transform: capitalize;
+            }
+            #dad{
+                display: flex;
+                flex-direction: column;
+                padding: 0%;
+                
+            
+            div{
+                display: flex;
+                button{
+                    background-color: transparent;
+                    color: gray;
+
+                    border: solid 1px;
+                    border-radius: 5px;
+                    padding: 5% 10%;
+                    margin: 2%;
+                    &:nth-last-child(1){
+                        width: 17vw;
+                    }
+                }
+
+            }
+                
+            }
+            &:nth-child(2){
+                
+                h4{
+                    margin-left: 10%;
+                }
+                p{
+                    color: whitesmoke;
+                    
+                }
+            }
+
+       }
+
+   }
+   #darkFeet{
+      
+       background-color: black;
+       p{
+           text-align: center;
+           text-transform: capitalize;
+           color: whitesmoke;
+           height: 100%;
+           margin: 0%;
+           padding: 1%;
+       }
+   }
+}

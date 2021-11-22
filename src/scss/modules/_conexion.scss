@@ -1,0 +1,97 @@
+#centrage{
+    display: flex;
+    justify-content: center;
+    height: 800%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.74);
+    position: absolute;
+    z-index: 3;
+    display: none;
+    
+
+    position: fixed;
+    #connexion{
+       
+        display: none;
+       z-index: 2;
+        margin: 5% auto;
+        height: 60vh;
+        width:25%;
+        background-color: white;
+        padding: 1% 2%;
+        border: solid gray;
+        border-radius: 15px;
+        #title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h2{
+                font-family: poppins-sb;
+            }
+            #btnClose{
+                text-decoration: none;
+                margin: 2% 0%;
+                background-color: orangered;
+                border-radius: 5px;
+                padding: 1.5% 3%;
+                color: whitesmoke;
+                font-family: poppins-b;
+            }
+    
+    
+        }
+        #conect{
+            display: flex;
+            justify-content: space-evenly;
+            a{
+                text-decoration: none;
+                text-transform: capitalize;
+                font-family: poppins-sb;
+                background-color: red;
+                color: whitesmoke;
+                border-radius: 5px;
+                padding: 1%;
+            }
+    
+        }
+        #form1{
+            display: flex;
+            flex-direction: column;
+            p{
+                text-transform: capitalize;
+                font-family: poppins-r;
+            }
+            a{
+                text-decoration: none;
+                text-transform: capitalize;
+                text-align: center;
+                font-family: poppins-sb;
+                background-color:dodgerblue;
+                color: whitesmoke;
+                border-radius: 5px;
+                padding: 1%;
+                margin: 2%;
+            }
+        }
+        
+        #rsx{
+            display: flex;
+            justify-content: center;
+            i{
+                margin: 10% 5%;
+                font-size: 150%;
+                &:first-child{
+                    color: dodgerblue;
+    
+                }
+                &:nth-last-child(2){
+                    color: gold;
+                }
+            }
+        }
+    
+    
+    
+    
+    }
+}

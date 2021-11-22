@@ -1,0 +1,153 @@
+
+section {
+    /* ---------------------------- Titre grille 3*3 ---------------------------- */
+    h3 {
+        text-align: center;
+        text-transform: capitalize;
+        font-family: poppins-sb;
+        font-size: 200%;
+        margin: 0%;
+    }
+    /* ------------------------------- Grille 3*3 ------------------------------- */
+    #card2 {
+        display: flex;
+        padding: 2% 15%;
+        
+        .img3 {
+            height: 100%;
+            
+            .sqr {
+                
+                margin: 2%;
+                
+                .vitrine {
+                    display: flex;
+                    flex-direction: column;
+                    
+                    &:hover {
+                        
+                        // -webkit-transform: scale(1.1);
+                        // transform: scale(1.1);
+                        img{
+                            
+                            opacity: 100%;
+                            transition-duration: 2s;
+                        }
+                        div{
+                            // height: 5vh;
+                            span{
+                                transition-duration: 1s;
+                                transform: translate(0px,-50%);
+                                height: 5vh;
+                            }
+                        }
+                    }
+                    img {
+                        height: 100%;
+                        width: 100%;
+                        opacity: 80%;
+                        
+                    }
+                    
+                    cursor: pointer;
+                    div {
+                        display: flex;
+                        width: 100%;
+                        height: 0vh;
+                    
+                            span {
+                                
+                                height: 100%;
+                                width: 100%;
+                                background-color: rgba(0, 0, 0, 0.658);
+                                overflow: hidden;
+                                color: whitesmoke;
+                                text-transform: capitalize;
+                                font-family: poppins-l;
+                                text-align: center;
+                                i{
+                                    
+                                    color: white;
+                                }
+                            &:last-child {
+                                background-color: rgba(255, 0, 0, 0.671);
+                            }
+                        }
+                    
+                    }
+                }
+
+                p {
+
+                    text-transform: capitalize;
+                    text-align: center;
+                    margin: 0% 0%;
+
+                    span {
+
+                        color: gray;
+
+                        &:nth-child(2) {
+                            text-decoration: line-through
+                        }
+
+                        &:last-child {
+                            text-decoration: none;
+                            color: red;
+                        }
+                    }
+                }
+
+                div {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    margin: 0%;
+
+                    a {
+                        display: flex;
+                        align-items: center;
+                        text-decoration: none;
+                        background-color: orangered;
+                        color: whitesmoke;
+                        font-size: 90%;
+                        text-transform: uppercase;
+                        border-radius: 100%;
+                        padding: 25% 1%;
+
+                    }
+                }
+            }
+        }
+    }
+
+
+/* ------------------------------ Window fixed ------------------------------ */
+    #windo {
+        background-image: url(../../../public/img/cta-bg.jpg);
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 75vh;
+
+        h2 {
+            text-transform: capitalize;
+            font-family: poppins-l;
+            color: whitesmoke;
+            font-size: 300%
+        }
+
+        a {
+            text-decoration: none;
+            color: whitesmoke;
+            font-family: poppins-r;
+            text-transform: uppercase;
+            background-color: red;
+            padding: 1% 2%;
+            border-radius: 10px
+        }
+
+    }
+}

@@ -1,0 +1,113 @@
+section {
+    #sc1 {
+
+        #banner {
+            /* ------------------------------ Baner-t-shirt ----------------------------- */
+            display: flex;
+            align-items: center;
+            background-color: rgba(211, 211, 211, 0.267);
+            padding: 1% 15%;
+
+            #dsc1 {
+
+
+                h3 {
+                    font-size: 250%;
+                    text-transform: initial;
+                    color: orangered;
+                    font-family: poppins-l;
+                    margin: 0%;
+                }
+
+                h2 {
+                    font-family: poppins-b;
+                    font-size: 400%;
+                    margin: 0%;
+                }
+
+                p {
+                    color: rgb(83, 82, 82);
+                    margin: 5% 0%;
+
+                }
+
+                a {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-family: poppins-l;
+                    color: whitesmoke;
+                    background-color: orangered;
+                    border-radius: 50px;
+                    padding: 2% 5%;
+
+                }
+            }
+
+            #img1 {
+                display: flex;
+                justify-content: center;
+
+                img {
+                    height: 40%;
+                    width: 100%;
+                }
+            }
+
+        }
+/* ------------------------------- trio-window ------------------------------ */
+        #card1 {
+            display: flex;
+
+            .img2 {
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0.5%;
+                &:hover {
+                    cursor: pointer;
+                    hr{
+
+                        transition-duration: 2s;
+                        width: 15%;
+                    }
+                }
+
+                img {
+                    height: 80%;
+                    width: 100%;
+                    position: relative;
+                }
+
+                p {
+                    position: absolute;
+                    z-index: +1;
+                    color: whitesmoke;
+                    font-size: 110%;
+                    text-transform: uppercase;
+                    font-family: poppins-r;
+                    // text-decoration: underline;
+                    // &:hover{
+
+                    //     transition-duration: 2s;
+                    //     text-decoration: underline 200%;
+                    // }
+
+                }
+
+                hr {
+
+                    position: absolute;
+                    z-index: 1;
+                    border: solid 1px whitesmoke;
+                    margin-top: 2%;
+
+                    width: 8%;
+                    background-color: whitesmoke;
+
+                    
+                }
+            }
+        }
+    }
+}

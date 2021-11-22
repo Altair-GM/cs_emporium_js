@@ -1,0 +1,159 @@
+#sc3 {
+
+    // background-color: red;
+    // height: 100vh;
+    /* ----------------------------- Titre caroussel ---------------------------- */
+    h2 {
+        text-align: center;
+        font-family: poppins-b;
+        text-transform: capitalize;
+
+    }
+
+    #caroussel {
+        /* ----------------------------- base caroussel ----------------------------- */
+        width: 90%;
+        height: 50vh;
+        background-color: transparent;
+        //   border: solid 5px darkgray;
+        border-radius: 25px;
+        margin: auto;
+        overflow: hidden;
+
+        /* ---------------------------------- Screen --------------------------------- */
+        #visual {
+            width: 600%;
+            height: 80%;
+            background-color: transparent;
+
+
+
+            display: flex;
+            flex-flow: wrap nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            transition-duration: 2s;
+            transform: translateX(0%);
+
+
+            img {
+                height: 85%;
+                width: calc(50%/6);
+                border-radius: 25px;
+                margin: auto;
+                box-shadow: 0px 10px 25px 0px black;
+
+            }
+
+        }
+
+        /* ---------------------------- block de boutton ---------------------------- */
+        #btns {
+            display: flex;
+            margin: auto;
+            width: 50%;
+
+            border-radius: 50px;
+
+            //   background-color: rgba(169, 169, 169, 0.781);
+            padding: 1%;
+            display: flex;
+            flex-flow: wrap nowrap;
+            justify-content: center;
+            align-items: center;
+
+            /* -------------------------- boutton individualles ------------------------- */
+            .btn {
+                list-style: none;
+                //  width: 1vw;
+                //  height: 2vh;
+                margin: 1.5%;
+                border-radius: 100%;
+                border: solid 5px gray;
+                background-color: lightgray;
+                padding: 1%;
+                cursor: pointer;
+
+
+            }
+
+            /* ---------------------------- luminessence btn ---------------------------- */
+            .light {
+                background-color: whitesmoke;
+                transition-duration: 1s;
+                box-shadow: 0px 0px 5px 5px gray;
+            }
+        }
+    }
+    /* ------------------------------- cards Info ------------------------------- */
+
+    #card3 {
+
+
+        display: flex;
+
+        // justify-content: space-between;
+        div {
+            height: 100%;
+            width: 50%;
+            background-color: lightgrey;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 2% 0.5%;
+            padding: 5% 3%;
+
+            i {
+                font-size: 200%;
+            }
+
+            h4 {
+                text-transform: uppercase;
+                font-family: poppins-sb;
+            }
+
+            p {
+                text-align: center;
+
+            }
+
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 80%;
+                font-family: poppins-b;
+           
+                color: whitesmoke;
+                background-color: red;
+                padding: 2% 2%;
+                border-radius: 5px;
+            }
+
+           
+            &:nth-child(2) {
+                background-color: red;
+
+                i {
+                    color: whitesmoke;
+                }
+
+                h4 {
+                    color: whitesmoke;
+
+                }
+
+                p {
+                    color: whitesmoke;
+                }
+
+                a {
+                    color: black;
+                    background-color: lightgrey;
+                }
+            }
+
+
+        }
+    }
+}
