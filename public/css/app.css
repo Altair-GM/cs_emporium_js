@@ -112,6 +112,21 @@ body header #navbar div #btnCo {
   font-family: poppins-sb;
   margin: 2%;
 }
+body header .floatBar {
+  position: fixed;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 2;
+  background-color: whitesmoke;
+  top: -10%;
+  left: -10%;
+  transition: 2s;
+}
+body header .floatBar h2 {
+  order: -1;
+  font-family: poppins-b;
+}
 
 section #sc1 {
   /* ------------------------------- trio-window ------------------------------ */

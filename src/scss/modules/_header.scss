@@ -140,17 +140,30 @@ body {
 
                 }
             }
-            // .floatBar{
-            //     display: flex;
-            //     justify-content: center;
-            //     justify-content: space-between;
-            //     align-items: flex-start;
-            //     align-items: center;
+            .floatBar{
+               
+               
+               
+               position:fixed;
+               align-items: flex-start;
+               width: 100%;
+               margin: 0 auto;
+               z-index: 2;
+               background-color: whitesmoke;
+               
+               
+            
+               top: calc(10% - 20%);
+               left:calc(0% - 10%);
+               transition: 2s;
+               h2{
+                   order: -1;
+                   font-family: poppins-b;
+               }
                 
-            //     position: absolute;
-            //     z-index: 2;
-            //     background-color: red;
-            // }
+                
+               
+                          }
 
         }
     }
