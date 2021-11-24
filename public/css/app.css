@@ -64,6 +64,9 @@ body header #navbar {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
+  box-shadow: 0px 0px 20px 25px white;
+  height: 6vh;
   justify-content: space-evenly;
   margin: 5% 10%;
 }
@@ -135,7 +138,7 @@ section #sc1 #banner {
   /* ------------------------------ Baner-t-shirt ----------------------------- */
   display: flex;
   align-items: center;
-  background-color: rgba(211, 211, 211, 0.267);
+  background-color: #f3f3f3;
   padding: 1% 15%;
 }
 section #sc1 #banner #dsc1 h3 {
@@ -242,7 +245,7 @@ section #card2 .img3 .sqr .vitrine:hover img {
 }
 section #card2 .img3 .sqr .vitrine:hover div span {
   transition-duration: 1s;
-  transform: translate(0px, -50%);
+  transform: translate(0px, -47%);
   height: 5vh;
 }
 section #card2 .img3 .sqr .vitrine img {

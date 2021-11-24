@@ -1,4 +1,3 @@
-/* ----------------------------- scrolling navbar ---------------------------- */
 
 let navBar = document.querySelector("#navbar")
 let limit = navBar.offsetTop

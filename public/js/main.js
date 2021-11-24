@@ -1,18 +1,22 @@
+let dark = document.getElementById("dark")
+console.log(dark);
+let light = document.getElementById("light")
+let h1 = document.getElementById("h1")
+const darkNav = document.querySelector("nav")
+console.log(darkNav);
+// console.log(h1);
 
-
-
-
-
-// window.addEventListener("scroll",function(){
+dark.addEventListener("click", ()=>{
+    darkNav.classList.add("dark")
+   
+        
+        document.body.style.backgroundColor = "black";
+        h1.style.color = "white"
+        menu.style.color = "white"
     
-//     // navBar.classList.toggle("sticky",window.scrollY > 0)
+    
+})
 
-
-// } )
-// let position = navBar.getBoundingClientRect().top
-// console.log(position);
-//     let title = this.document.getElementsByTagName("h2")
-//     let title2 = this.document.createTextNode("emporium.")
-//     title.appendCild(title2)
-
-//    document.body.insertBefore(title, navBar)
+light.addEventListener("click",()=>{
+    
+})
